@@ -19,12 +19,16 @@ Get `make-ipinyou-data` from [wnzhang/make-ipinyou-data](https://github.com/wnzh
 Update the soft link for the folder `ipinyou.contest.dataset` in `original-data`.
 
 ```shell
-ln -sfn ~/ipinyou.contest.dataset ipinyou.contest.dataset
+lkf@ubuntu:~/make-ipinyou-data/original-data$ ln -sfn ~/ipinyou.contest.dataset ipinyou.contest.dataset
 ```
 
 ## Step 3
 
-Replace the folder `python` by this repository's. Make sure all Python files have permission 775 or 777.
+Replace the folder `python` by this repository's. Make sure all Python files have permission 775 or 777:
+
+```shell
+lkf@ubuntu:~/make-ipinyou-data/python$ chmod 777 *
+```
 
 ## Step 4
 

@@ -19,12 +19,16 @@
 更新 `original-data` 中 `ipinyou.contest.dataset` 的软链接。
 
 ```shell
-ln -sfn ~/ipinyou.contest.dataset ipinyou.contest.dataset
+lkf@ubuntu:~/make-ipinyou-data/original-data$ ln -sfn ~/ipinyou.contest.dataset ipinyou.contest.dataset
 ```
 
 ## Step 3
 
-使用本仓库的替换其中的文件夹 `python` 。确保他们的权限是 775 或 777。
+使用本仓库的替换其中的文件夹 `python` 。确保他们的权限是 775 或 777，比如：
+
+```shell
+lkf@ubuntu:~/make-ipinyou-data/python$ chmod 777 *
+```
 
 ## Step 4
 
